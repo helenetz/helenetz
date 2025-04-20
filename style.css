@@ -125,7 +125,7 @@ text-align: center;
 }
 
 .projet1 img{
-    width: 40%;
+    width: 40vw;
     object-position: 50px 0px;
     padding-bottom: 80px;
 }
@@ -175,7 +175,7 @@ font-size: 40px;
 
 
 .projet2 img{
-    width: 40%;
+    width: 40vw;
     object-position: 50px 0px;
     padding-bottom: 80px;
 }
@@ -218,8 +218,8 @@ font-weight: bold;
 
 
 
-.projet3 img{
-    width: 40%;
+.projet3 a img{
+    width: 40vw;
     object-position: 50px 0px;
     padding-bottom: 80px;
 }
@@ -228,21 +228,15 @@ font-weight: bold;
     display: flex;  
     flex-direction: column;
 }
-.cartep{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin: 10px;
-    border:none;
-    text-decoration: none;
-    width: 100px;
-    height: 20px;
-    border-radius: 10px;
-    background: #d388c4;
-    color: #f205e6;
- }
 
+a img {
+    border: 2px transparent #ce753e; 
+    transition: opacity 0.3s; 
+}
+
+a img:hover {
+    opacity: 0.7; 
+}
 article h1 h5{
     display: flex;
     color: #7871FA;
@@ -262,7 +256,8 @@ article{
     color:#f3f3db; 
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 .apropos h1{
@@ -280,7 +275,7 @@ article{
 .compparcours{
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 20%;
     color:  #f3f3db;
 }
 
@@ -292,7 +287,7 @@ article{
     border-radius: 8px;
     padding: 10px 100px;
     font-weight: 500;
-    background-color: #dddddd;
+    background-color: #eba0a0;
     color: #f3f3db;
     margin: 10px;
     border:none;
