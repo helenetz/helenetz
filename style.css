@@ -11,26 +11,24 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(202 94 104);
-    color: beige;
-    width: 750px;
-    height: 300px;
+    background-color: #ca5e68;
+    color: #f3f3db;
+    width: 60%;
+    height: 300%;
     border-bottom-left-radius: 80px 80px;
     margin: 0 0px 0px 500px;
     align-items: flex-start;
-    font-size: small; 
-
+    font-size: medium; 
 }
 
 .barrenav{
-    margin: 31px;
-    margin-block-start: -35px;
-    margin-left: 412px;
- 
+    margin-left: 50%;
+    margin-bottom: 10%;
 }
+
 .barrenav ul a{
     text-decoration: none;
-    color: beige;
+    color: #f3f3db;
     gap: 20px;
 }
 
@@ -42,39 +40,41 @@ nav{
 }
 
 .textenav{
-    margin-left: 170px;
+    margin-left: 30%;
 }
 
 .logonav{
     display: flex;
-    gap: 9px;
+    gap: 18px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: stretch;
     align-items: flex-start;
-    margin-left: 170px;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
 
 
+.barrenav, .textenav, .logonav{
+    margin-top: 0%;
+}
 
 header .Hello{
     display: flex;
-    margin: 156px;
-    margin-bottom: 23px;
-    margin-top: -128px;
+    margin: 285px;
+    margin-top: -14%;
     font-size: 500;
-    font-size: 40px;
+    font-size: 250%;
     color: #d388c4;
-    row-gap: 20px ;
+    line-height: 77px;
+    margin-bottom: 10%;
     
 }
 
 header .mesprojets{
-margin-top: 300px;
-margin-bottom: 300px;
 margin: 60px;
-font-size: larger;
+font-size: 30px;
 color: #7871FA;
 text-align: inherit;
 text-align: justify;
@@ -100,6 +100,7 @@ text-wrap: wrap;
     color: #7871FA;
     text-align: left;
     padding-left: 236px;
+    font-size: 15px;
 }
 
 
@@ -116,8 +117,11 @@ text-align: center;
 }
 
 .projet1 h3{
+    color: blueviolet;
+    text-align: center;
     font-size: x-large;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .projet1 img{
@@ -126,10 +130,13 @@ text-align: center;
     padding-bottom: 80px;
 }
 
-.cartep{
+.cartesproject ul li{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.cartep{
+    text-align: center;
     font-weight: bold;
     margin: 10px;
     border:none;
@@ -147,29 +154,18 @@ text-align: center;
 
 .projet2{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: row-reverse;
 }
 
 
-.texteproject{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: poppins;
-    font-size: small;
-    color: #7871FA;
-    text-align: left;
-    padding-left: 236px;
-}
-
-
-
 .projet2 h3{
 color: blueviolet;
 text-align: center;
-
+font-size: x-large;
+font-weight: bold;
+font-size: 40px;
 }
 
 .projet2 p{
@@ -177,10 +173,6 @@ text-align: center;
     color: rgb(202 94 104);
 }
 
-.projet2 h3{
-    font-size: x-large;
-    font-weight: bold;
-}
 
 .projet2 img{
     width: 40%;
@@ -211,23 +203,12 @@ text-align: center;
     align-items: flex-start;
 }
 
-.texteproject{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: poppins;
-    font-size: small;
-    color: #7871FA;
-    text-align: left;
-    padding-left: 236px;
-}
-
-
 
 .projet3 h3{
 color: blueviolet;
 text-align: center;
-
+font-size: 40px;
+font-weight: bold;
 }
 
 .projet3 p{
@@ -235,10 +216,7 @@ text-align: center;
     color: rgb(202 94 104);
 }
 
-.projet3 h3{
-    font-size: x-large;
-    font-weight: bold;
-}
+
 
 .projet3 img{
     width: 40%;
@@ -246,6 +224,10 @@ text-align: center;
     padding-bottom: 80px;
 }
 
+.cartesproject{
+    display: flex;  
+    flex-direction: column;
+}
 .cartep{
     display: flex;
     align-items: center;
@@ -261,12 +243,45 @@ text-align: center;
     color: #f205e6;
  }
 
-.apropos{
+article h1 h5{
     display: flex;
-    background-color:  rgb(202 94 104);
-    border-bottom-left-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    
+    color: #7871FA;
+}
+
+article .bio{
+    text-align: center;
+}
+
+article{
+    display: flex;
+    background-color:  #ca5e68;
+    border-radius: 5%
+}
+
+.apropos{
+    color:#f3f3db; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.apropos h1{
+    color:  #f3f3db;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.apropos h5{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.compparcours{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    color:  #f3f3db;
 }
 
 
@@ -275,24 +290,41 @@ text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    padding: 16px 110px;
-    width: fit-content;
+    padding: 10px 100px;
     font-weight: 500;
     background-color: #dddddd;
-    color:#f6f6ff;
+    color: #f3f3db;
     margin: 10px;
     border:none;
     text-decoration: none;
-    
+    margin-left: -40px;
 }
 
-.parcours h5{
-    text-align: left;
+#parcours h5{
+    text-align: start;
+    font-size: 20px;
+    color:  #f3f3db;
+}
+
+.competenceslogo h5{
+    font-size: 20px;
+}
+
+.apropos p{
+    color:  #f3f3db;
+    font-size: small;
 }
 
 
- footer{
+footer{
     text-align: center;
+    padding-top: 8%;
+    color: #a7a1a7;
  }
  
+ footer .haut{
+    text-decoration: none;
+    text-align: end;
+    color: #ca5e68;
+ }
  

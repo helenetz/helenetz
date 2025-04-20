@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio helenetz</title>
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
 
 <body>
+    <a id="haut"></a>
     <nav>
       
         <div class="barrenav">
 
         <ul>
-        <li> <a href="#">Mes projets</a></li>
-        <li> <a href="#">A propos</a></li>
-        <li> <a href="#">Contact</a></li>
+        <li> <a href="#mesprojets">Mes projets</a></li>
+        <li> <a href="#parcours">A propos</a></li>
+        <li> <a href="mailto:helene.tang@latoile.em-lyon.com">Contactez-moi</a></li>
         </ul> 
        
         </div>
@@ -33,9 +35,9 @@
 
        <div class="logonav">
 
-        <img class="inconinsta" src="icons\insta.png" alt="logo insta"> <a href="#"></a>
-        <img class="icondiscord" src="icons\discord.png" alt="logo  discord"> <a href="#"></a>
-        <img class="iconlink" src="icons\linkedin.png" alt="logo linkedin">  <a href="#"></a>
+        <a href="#"> <img class="inconinsta" src="icons\insta.png" alt="logo insta" > </a> 
+        <a href="#"> <img class="icondiscord" src="icons\discord.png" alt="logo  discord">  </a>
+        <a href="http://www.linkedin.com/in/helene-tang-4a0820153" target="_blank"> <img class="iconlink" src="icons\linkedin.png" alt="logo linkedin"> </a>
       </div>
       
       
@@ -47,14 +49,17 @@
             Tang</H1>
 
         </H1>
-     <h2 class="mesprojets"> Mes projets</h2>
+        
+     <h2 class="mesprojets" id="mesprojets"> Mes projets</h2>
+  
    </header>
 
    <main>
 
     <section class="projet1">
-        <img class="img1" src="images\Image.png" alt="livre"> <a href="#"></a>
-
+       <img class="img1" src="images\Image.png" alt="livre"> <a href="#"></a>
+        
+       <div data-aos="fade-up">
         <div class="texteproject">
          <h3>Project 1</h3>
          Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
@@ -72,11 +77,15 @@
          </div>
 
         </div>
+    </div>
     </section>
 
     <section class="projet2">
         <img class="img2" src="images\Image-1.png" alt="orange"> <a href="#"></a>
         
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
+
         <div class="texteproject">
         <h3>Project 2</h3>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
@@ -85,19 +94,22 @@
             sit quia consectetur dolorem libero, <br />
             exercitationem repudiandae quae doloremque in commodi.<br />
              Vitae, sed.</p>
-        <div class="cartesproject">
+
+         <div class="cartesproject">
             <ul>
               <li class="cartep">Front-end</li>
               <li class="cartep">UI/UX design</li>
              </ul>
          </div>
-
         </div>
+    </div>
     </section>
 
     <section class="projet3">
-        <img class="img1" src="images\Image-4.png" alt="orange"> <a href="#"></a>
-
+        
+        <img class="img1" src="images\Image-4.png" alt="orange" a href="#"> </a>
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
         <div class="texteproject">
          <h3>Project 3</h3>
          Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
@@ -113,69 +125,84 @@
               <li class="cartep">UI/UX design</li>
              </ul>
          </div>
-
+         </div>
         </div>
     </section>
 
     <article>
-    <H1>A propos</H1>
-     <div class="apropos">
-        <h5>Bio</h5>
+     
+       
+        <div class="apropos">
+            <H1>A propos</H1>
+            <h5>Bio</h5>
 
-        <div class="Bio">
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
-        Quod, earum omnis cupiditate facere <br /> 
-        quos eligendi suscipit impedit, <br />
-        sit quia consectetur dolorem libero, <br />
-        exercitationem repudiandae quae doloremque in commodi.<br />
-        Vitae, sed.</p>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
-        Quod, earum omnis cupiditate facere <br /> 
-        quos eligendi suscipit impedit, <br />
-        sit quia consectetur dolorem libero, <br />
-        exercitationem repudiandae quae doloremque in commodi.<br />
-        Vitae, sed.</p>
+        
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+            Quod, earum omnis cupiditate facere <br /> 
+            quos eligendi suscipit impedit, <br />
+            sit quia consectetur dolorem libero, <br />
+            exercitationem repudiandae quae doloremque in commodi.<br />
+             Vitae, sed.</p>
+             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+            Quod, earum omnis cupiditate facere <br /> 
+            quos eligendi suscipit impedit, <br />
+            sit quia consectetur dolorem libero, <br />
+            exercitationem repudiandae quae doloremque in commodi.<br />
+            Vitae, sed.</p>
         </div>
+
+     
 
         <div class="compparcours">
 
-        <div class="competences">
-        <div class="competenceslogo">
-        <h5>Compétences</h5>
+         <div class="competences">
 
-        <div class="logo">
-        <img src="icons\js.png" alt="logojs"><a href="#"></a>
-        <img src="icons\htmlcss.png" alt="logohtml"><a href="#"></a>
-        <img src="icons\github.png" alt="logogithub"><a href="#"></a>
-        <img src="icons\figma.png"  alt="logofigma"><a href="#"></a>
-        </div>
+            <div class="competenceslogo">
+              <h5>Compétences</h5>
+
+               <div class="logo">
+                <img src="icons\js.png" alt="logojs"><a href="#"></a>
+                <img src="icons\htmlcss.png" alt="logohtml"><a href="#"></a>
+                <img src="icons\github.png" alt="logogithub"><a href="#"></a>
+                <img src="icons\figma.png"  alt="logofigma"><a href="#"></a>
+               </div>
         
-        </div>
+            </div>
+
         </div>
 
-        <div class="parcours">
+        <div id="parcours">
            <h5>Parcours</h5>
 
-         <div class="carteformation">
-          <ul>
-            <li class="cartes">Formation...<br />
-                Déc 2024 - juin 2025</li>
-            <li class="cartes">Formation...<br />
-                Déc 2024 - juin 2025</li>
-            <li class="cartes">Formation...<br />
-                Déc 2024 - juin 2025</li>
-          </ul>
-         </div>
+            <div class="carteformation">
+                <ul>
+                 <li class="cartes">Formation...<br />
+                 Déc 2024 - juin 2025</li>
+                 <li class="cartes">Formation...<br />
+                 Déc 2024 - juin 2025</li>
+                 <li class="cartes">Formation...<br />
+                 Déc 2024 - juin 2025</li>
+                </ul>
+            </div>
         
         </div>
-    </div>
-    </div>  
- </article>
+   
+    
+    </article>
 </main>
 
  <footer>
     <h5>Designed in figma. With love</h5>
     <h5>Hélène Tang • 2025</h5>
+    <div class="haut">
+    <a href="#haut">Haut de page</a>
+    </div>
  </footer>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html>
