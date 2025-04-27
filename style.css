@@ -1,49 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
-
-
-body{
-background-color: rgb(242, 234, 234);
-margin: 0;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: #f2eaea;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #ca5e68;
-    color: #f3f3db;
-    width: 60%;
+    color: #f2eaea;
+    width: 65%;
     height: 300%;
     border-bottom-left-radius: 80px 80px;
-    margin: 0 0px 0px 500px;
+    margin: 0 0px 0px 446px;
     align-items: flex-start;
-    font-size: medium; 
+    font-size: 20px;
 }
 
-.barrenav{
-    margin-left: 50%;
+.barrenav {
+    margin-left: 44%;
     margin-bottom: 10%;
+    font-size: 21px;
 }
 
-.barrenav ul a{
+.barrenav ul a {
     text-decoration: none;
-    color: #f3f3db;
+    color: #f2eaea;
     gap: 20px;
 }
 
-.barrenav ul{
-   list-style: none;
-   display: flex;
-   align-items: center;
-   gap: 20px;
+.barrenav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.textenav{
+.textenav {
     margin-left: 30%;
 }
 
-.logonav{
+.logonav {
     display: flex;
     gap: 18px;
     flex-wrap: wrap;
@@ -53,273 +51,458 @@ nav{
     align-items: flex-start;
     margin-left: 30%;
     margin-bottom: 5%;
+    padding-top: 15px;
 }
 
-
-.barrenav, .textenav, .logonav{
-    margin-top: 0%;
-}
-
-header .Hello{
+/* Section header */
+header .Bonjour {
     display: flex;
-    margin: 285px;
-    margin-top: -14%;
-    font-size: 500;
-    font-size: 250%;
+    margin: 227px;
+    margin-top: -16%;
+    font-size: 346%;
     color: #d388c4;
-    line-height: 77px;
+    line-height: 90px;
     margin-bottom: 10%;
-    
 }
 
-header .mesprojets{
-margin: 60px;
-font-size: 30px;
-color: #7871FA;
-text-align: inherit;
-text-align: justify;
-text-transform: uppercase;
-text-wrap: wrap;
+header #mesprojets {
+    margin: 60px;
+    font-size: 50px;
+    color: #7871FA;
+    text-align: inherit;
 }
 
-
-
-.projet1{
+/* Projet sections */
+.projet, .projet3 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-
+    padding-bottom: 10%;
 }
 
-.texteproject{
+.texteproject {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: poppins;
-    font-size: small;
-    color: #7871FA;
+    color: #d388c4;
     text-align: left;
-    padding-left: 236px;
-    font-size: 15px;
+    padding-left: 116px;
 }
 
-
-
-.projet1 h3{
-color: blueviolet;
-text-align: center;
-
-}
-
-.projet1 p{
+.projet, .projet2, .projet3 p {
     font-style: italic;
-    color: rgb(202 94 104);
+    color: #d388c4;
+    text-align: justify;
+    font-size: 20px;
 }
 
-.projet1 h3{
-    color: blueviolet;
-    text-align: center;
-    font-size: x-large;
+h3 {
+    font-style: normal;
+    color: #7871FA;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 71px;
 }
 
-.projet1 img{
+.projet img, .projet3 img {
     width: 40vw;
     object-position: 50px 0px;
     padding-bottom: 80px;
 }
 
-.cartesproject ul li{
+.cartep {
     display: flex;
-    flex-direction: column;
-}
-
-.cartep{
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
-    border:none;
-    text-decoration: none;
-    width: 100px;
-    height: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 35px;
     border-radius: 10px;
-    background: #d388c4;
-    color: #f205e6;
- }
-
-.projet2 img{
-    object-position:-50px;
+    background: #ca5e68;
+    color: #f2eaea;
+    gap: 30px;
 }
 
-.projet2{
+.boutonscompetence {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+/* Projet 2 */
+.projet2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row-reverse;
+    padding-bottom: 10%;
 }
 
-
-.projet2 h3{
-color: blueviolet;
-text-align: center;
-font-size: x-large;
-font-weight: bold;
-font-size: 40px;
-}
-
-.projet2 p{
-    font-style: italic;
-    color: rgb(202 94 104);
-}
-
-
-.projet2 img{
+.projet2 img {
     width: 40vw;
     object-position: 50px 0px;
     padding-bottom: 80px;
+    margin-right: 50px;
 }
 
-.cartep{
+/* Article section */
+article {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin: 10px;
-    border:none;
-    text-decoration: none;
-    width: 100px;
-    height: 20px;
-    border-radius: 10px;
-    background: #d388c4;
-    color: #f205e6;
- }
-
- 
-
-.projet3{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    background-color: #ca5e68;
+    border-radius: 5%;
 }
 
-
-.projet3 h3{
-color: blueviolet;
-text-align: center;
-font-size: 40px;
-font-weight: bold;
-}
-
-.projet3 p{
-    font-style: italic;
-    color: rgb(202 94 104);
-}
-
-
-
-.projet3 a img{
-    width: 40vw;
-    object-position: 50px 0px;
-    padding-bottom: 80px;
-}
-
-.cartesproject{
-    display: flex;  
-    flex-direction: column;
-}
-
-a img {
-    border: 2px transparent #ce753e; 
-    transition: opacity 0.3s; 
-}
-
-a img:hover {
-    opacity: 0.7; 
-}
-article h1 h5{
-    display: flex;
-    color: #7871FA;
-}
-
-article .bio{
-    text-align: center;
-}
-
-article{
-    display: flex;
-    background-color:  #ca5e68;
-    border-radius: 5%
-}
-
-.apropos{
-    color:#f3f3db; 
+.apropos {
+    color: #f2eaea;
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 4%;
     margin-bottom: 5%;
+    margin-top: -2%;
+    font-style: oblique;
 }
 
-.apropos h1{
-    color:  #f3f3db;
-    font-size: 40px;
+.apropos h1 {
+    font-style: oblique;
+    font-size: 50px;
     font-weight: bold;
 }
 
-.apropos h5{
-    font-size:20px;
+.apropos h5 {
+    font-style: oblique;
+    font-size: 20px;
     font-weight: bold;
 }
 
-
-.compparcours{
+.compparcours {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    color:  #f3f3db;
+    margin-left: 6%;
+    margin-top: 7%;
 }
 
-
-.cartes{
+.cartes {
     display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 8px;
     padding: 10px 100px;
     font-weight: 500;
     background-color: #eba0a0;
-    color: #f3f3db;
-    margin: 10px;
-    border:none;
+    border-radius: 20px;
+    padding: 14px 140px;
+    margin: 15px;
+    border: none;
     text-decoration: none;
     margin-left: -40px;
+    color: #f2eaea;
+    font-weight: bold;
+    text-align: left;
 }
 
-#parcours h5{
+#parcours h5 {
+    font-style: oblique;
+    color: #f2eaea;
     text-align: start;
+    font-size: 22px;
+    padding-top: 2.3%;
+}
+
+.competenceslogo h5 {
+    font-style: oblique;
+    font-size: 22px;
+    color: #f2eaea;
+}
+
+.apropos p {
     font-size: 20px;
-    color:  #f3f3db;
 }
 
-.competenceslogo h5{
-    font-size: 20px;
-}
-
-.apropos p{
-    color:  #f3f3db;
-    font-size: small;
-}
-
-
-footer{
+/* Footer */
+footer {
     text-align: center;
     padding-top: 8%;
     color: #a7a1a7;
- }
- 
- footer .haut{
+}
+
+footer .haut {
     text-decoration: none;
     text-align: end;
     color: #ca5e68;
- }
- 
+}
+
+@media screen and (max-width: 800px) {
+    /* Navigation : Version mobile ajustée */
+    nav {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+
+    .barrenav {
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 18px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .barrenav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .textenav {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .logonav {
+        gap: 15px;
+        margin-left: 0;
+        margin-bottom: 5%;
+        padding-top: 10px;
+    }
+
+    .logonav a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    header .Bonjour {
+        font-size: 150%;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    header #mesprojets {
+        font-size: 28px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* Projets */
+    .projet, .projet2, .projet3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .projet img, .projet2 img, .projet3 img {
+        width: 80vw;
+        object-position: center;
+        padding-bottom: 30px;
+    }
+
+    .texteproject {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* A propos */
+    article {
+        padding: 10px;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .apropos {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .apropos h1 {
+        font-size: 35px;
+    }
+
+    .apropos h5 {
+        font-size: 18px;
+    }
+
+    .apropos p {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding: 0 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .barrenav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .textenav {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .logonav {
+        margin-top: 10px;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .logonav a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    header .Bonjour {
+        font-size: 150%;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    header #mesprojets {
+        font-size: 28px;
+    }
+
+    .projet, .projet2, .projet3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .projet img, .projet2 img, .projet3 img {
+        width: 80vw;
+        object-position: center;
+    }
+
+    .texteproject {
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .apropos {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .apropos h1 {
+        font-size: 35px;
+    }
+
+    .apropos h5 {
+        font-size: 18px;
+    }
+
+    .apropos p {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+}
+
+/* Media Query pour les écrans plus petits comme iPhone 14 Pro Max (largeur ~430px) */
+@media screen and (max-width: 430px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .barrenav ul {
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 10px;
+    }
+
+    .textenav {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .logonav {
+        gap: 10px;
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+    .logonav a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    header .Bonjour {
+        font-size: 120%;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    header #mesprojets {
+        font-size: 24px;
+    }
+
+    .projet, .projet2, .projet3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .projet img, .projet2 img, .projet3 img {
+        width: 90vw;
+        object-position: center;
+        padding-bottom: 20px;
+    }
+
+    .texteproject {
+        text-align: center;
+    }
+
+    article {
+        padding: 5px;
+    }
+
+    .apropos {
+        text-align: center;
+    }
+
+    .apropos h1 {
+        font-size: 30px;
+    }
+
+    .apropos h5 {
+        font-size: 16px;
+    }
+
+    .apropos p {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
